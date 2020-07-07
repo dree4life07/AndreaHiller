@@ -114,6 +114,10 @@ and (max-device-width : 480px){
     width: 100%;
 }
 
+.contact {
+    padding-bottom: 100%;
+}
+
 .header .menu-icon .navicon:before {
     top: 25px;
 }
@@ -151,5 +155,15 @@ and (max-device-width : 480px){
 
 /*-------------BANNER------------*/
 
+.banner {
+    width: 71vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner img {
+    width: 70vw;
+    margin-top: 25vh;
+}
 
 }
