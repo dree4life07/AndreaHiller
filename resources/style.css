@@ -167,11 +167,23 @@ and (max-device-width : 480px){
     margin-top: 25vh;
 }
 
-.banner p {
-    font-size: 3.85vw;
+.banner h1 {
+    font-size: 5.5vw;
+    text-align: center;
+    margin-top: 2.5vh;
+    font-weight: 300;
+    color: gainsboro;
+}
 
+.banner p {
+    width: 60vw;
+    font-size: 3.85vw;
+    text-align: center;
     margin-top: 2vh;
-    color: #6ac49f;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    font-weight: 300;
 }
 
 }
