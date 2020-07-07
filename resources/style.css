@@ -157,6 +157,7 @@ and (max-device-width : 480px){
 
 .banner {
     width: 71vw;
+    height: 100vh;
     margin-right: auto;
     margin-left: auto;
 }
