@@ -1,0 +1,154 @@
+@media only screen
+and (min-width : 1224px){
+
+* {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #231f20;
+ }
+
+/*------------HEADER------------*/
+.header {
+    background-color: transparent;
+    position: fixed;
+    width: 100%; 
+}
+
+.header ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #231f20;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.header li a {
+    display: block;
+    padding: 50px;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    letter-spacing: 8px;
+}
+
+.about {
+    color: #6ac49f;
+    margin-right: 60px;
+    text-align: right;
+    margin-top: 260px;
+    background-color: #231f20;
+}
+
+.projects {
+    color: #f8b639;
+    margin-right: 60px;
+    text-align: right;
+}
+
+.contact {
+    color: #ef4826;
+    margin-right: 60px;
+    text-align: right;
+}
+
+.header li a:hover {
+    background-color: #231f20;
+}
+
+/*.header .logo {
+    display: block;
+    float: left;
+    width: 250px;
+    height: auto;
+    padding: 30px 60px;
+    text-decoration: none;
+}*/
+
+
+/*-------------menu------------*/
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+/*----------menu icon----------*/
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-right: 80px;
+    padding-left: 100%;
+    position: relative;
+    user-select: none;
+    /*background-color: #231f20;*/
+}
+
+.header .menu-icon .navicon {
+    background: #6ac49f;
+    display: block;
+    height: 6px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 100px;
+}
+
+.header .menu-icon .navicon:before, 
+.header .menu-icon .navicon:after {
+    background: #6ac49f;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+    top: 25px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -25px;
+}
+
+/* menu btn */
+.header .menu-btn {
+    display: none;
+}
+  
+.header .menu-btn:checked ~ .menu {
+    max-height: 800px;
+}
+  
+.header .menu-btn:checked ~ .menu-icon .navicon {
+    background-color: transparent;
+}
+  
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+
+
+/*-------------BANNER------------*/
+
+
+}
