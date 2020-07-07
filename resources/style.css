@@ -167,4 +167,11 @@ and (max-device-width : 480px){
     margin-top: 25vh;
 }
 
+.banner p {
+    font-size: 3.85vw;
+
+    margin-top: 2vh;
+    color: #6ac49f;
+}
+
 }
