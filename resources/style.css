@@ -10,7 +10,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #f00;
+    background: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,18 +43,24 @@
     /*position: fixed;*/
     /*top: 20px;
     right: 20px;*/
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 61px;
     background: #ff0;
     z-index: 1;
     cursor: pointer;
 }
 
-.top-toggle, .mid-toggle, .bot-toggle {
-    width: 50px;
-    height: 50px;
-    height: 8px;
-    margin-bottom: 15px;
+.top-toggle, .mid-toggle {
+    width: 70px;
+    height: 15px;
+    margin-bottom: 8px;
+    background-color: black;
+    z-index: 2;
+}
+
+.bot-toggle {
+    width: 70px;
+    height: 15px;
     background-color: black;
     z-index: 2;
 }
@@ -75,7 +81,7 @@
     text-decoration: none;
     font-size: 3.5em;
     padding: 0 10px;
-    color: #fff;
+    color: black;
     font-weight: 700;
     display: inline-block;
 }
