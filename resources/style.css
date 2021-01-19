@@ -44,7 +44,7 @@
     /*top: 20px;
     right: 20px;*/
     width: 70px;
-    height: 61px;
+    height: 52px;
     background: transparent;
     z-index: 1;
     cursor: pointer;
@@ -52,7 +52,7 @@
 
 .top-toggle, .mid-toggle {
     width: 70px;
-    height: 15px;
+    height: 12px;
     margin-bottom: 8px;
     background-color: black;
     z-index: 2;
@@ -60,7 +60,7 @@
 
 .bot-toggle {
     width: 70px;
-    height: 15px;
+    height: 12px;
     background-color: black;
     z-index: 2;
 }
