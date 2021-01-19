@@ -45,7 +45,7 @@
     right: 20px;*/
     width: 70px;
     height: 61px;
-    background: #ff0;
+    background: transparent;
     z-index: 1;
     cursor: pointer;
 }
