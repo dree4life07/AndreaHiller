@@ -11,8 +11,8 @@
     </head>
 
     <body>
-        <nav>
-            <div class="nav-container">
+        <header>
+            <div class="header-container">
                 <img src="resources/images/solid-logo.svg" alt="logo">
                 <div class="menu">
                     <div id="toggleIcon" onclick="menuToggle()">
@@ -22,15 +22,15 @@
                     </div>
                     <div id="menu-overlay">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Work</a></li>
-                            <li><a href="#">Process</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a onclick="menuToggle()" href="#banner">Home</a></li>
+                            <li><a onclick="menuToggle()" href="#work">Work</a></li>
+                            <li><a onclick="menuToggle()" href="#process">Process</a></li>
+                            <li><a onclick="menuToggle()" href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </nav>
+        </header>
 
 
 
@@ -38,6 +38,8 @@
         <script type="text/javascript">
             function menuToggle(){
                 var nav = document.getElementById('menu-overlay');
+                nav.classList.toggle('active');
+                var nav = document.getElementById('toggleIcon');
                 nav.classList.toggle('active');
             }
         </script>
