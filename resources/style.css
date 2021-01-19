@@ -5,6 +5,10 @@
     font-family: 'Jost', sans-serif;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 #menu-overlay {
     position: fixed;
     top: 0;
@@ -31,7 +35,7 @@
     height: 200px;
     width: auto;
     padding: 0 70px 0 50px;
-    background-color: blueviolet;
+    background-color: #fff;
 }
 
 .header-container img {
@@ -125,4 +129,49 @@
     transform-origin: left;
     transition: 0.5s transform;
 }*/
+
+
+
+
+
+
+
+.banner-container {
+    width: auto;
+    height: auto;
+    background-color: #7ed0df;
+    padding: 12% 12% 0 12%;
+}
+
+.banner-info img {
+   display: none;
+}
+
+.banner-info h1 {
+    font-size: 8em;
+    font-weight: 700;
+    line-height: 1.25em;
+    text-align: center;
+}
+
+.banner-info h4 {
+    font-size: 2.5em;
+    font-weight: 400;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.cartoon {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.cartoon img {
+    width: auto;
+    height: 800px;
+
+    
+}
 
