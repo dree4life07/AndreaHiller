@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Jost', sans-serif;
@@ -74,16 +75,36 @@
     list-style: none;
     text-align: center;
     display: block;
+    padding-bottom: 100px;
 }
 
 #menu-overlay ul li a {
     position: relative;
     text-decoration: none;
-    font-size: 3.5em;
-    padding: 0 10px;
+    font-size: 90px;
+    height: 130px;
+    /*padding: 0 60px;*/
+    margin-bottom: 0;
+    padding-bottom: 0;
     color: black;
     font-weight: 700;
     display: inline-block;
+}
+
+.home {
+    border-bottom: solid 15px #f58632;
+}
+
+.work {
+    border-bottom: solid 15px #6bc39e;
+}
+
+.process {
+    border-bottom: solid 15px #ee4826;
+}
+
+.contact {
+    border-bottom: solid 15px #f7b539;
 }
 
 /*#menu-overlay ul li a:before {
