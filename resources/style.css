@@ -9,6 +9,44 @@ body {
     background-color: whitesmoke;
 }
 
+.banner-container-2 {
+    height: 100vh;
+    width: 100%;
+    background-color: violet;
+}
+
+#nav-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    top: 0;
+    padding: 0 70px 0 50px;
+    background-color: transparent;
+    transition: .5s;
+}
+
+#nav-area.cus-nav {
+    background-color: #fff;
+    opacity: .9;
+}
+
+#logo-area img {
+    height: 120px;
+    width: auto;
+}
+
+#logo-area {
+    opacity: 0;
+    transition: .5s;
+}
+
+#logo-area.cus-logo {
+    opacity: 1;
+}
+
 #menu-overlay {
     position: fixed;
     top: 0;
@@ -28,21 +66,6 @@ body {
     transform: scale(1);
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 200px;
-    width: auto;
-    padding: 0 70px 0 50px;
-    background-color: #fff;
-}
-
-.header-container img {
-    height: 120px;
-    width: auto;
-}
-
 #toggleIcon {
     position: relative;
     /*position: fixed;*/
@@ -51,8 +74,14 @@ body {
     width: 70px;
     height: 52px;
     background: transparent;
-    z-index: 1;
+    z-index: 9;
     cursor: pointer;
+    opacity: 0;
+    transition: .5s;
+}
+
+#toggleIcon.cus-icon {
+    opacity: 1;
 }
 
 .top-toggle, .mid-toggle {
@@ -60,14 +89,14 @@ body {
     height: 12px;
     margin-bottom: 8px;
     background-color: black;
-    z-index: 2;
+    z-index: 10;
 }
 
 .bot-toggle {
     width: 70px;
     height: 12px;
     background-color: black;
-    z-index: 2;
+    z-index: 10;
 }
 
 #menu-overlay ul {
@@ -95,10 +124,6 @@ body {
     display: inline-block;
 }
 
-.home {
-    border-bottom: solid 15px #f58632;
-}
-
 .work {
     border-bottom: solid 15px #6bc39e;
 }
@@ -109,6 +134,10 @@ body {
 
 .contact {
     border-bottom: solid 15px #f7b539;
+}
+
+.top {
+    border-bottom: solid 15px #f58632;
 }
 
 /*#menu-overlay ul li a:before {

@@ -11,9 +11,10 @@
     </head>
 
     <body>
-        <header>
-            <div class="header-container">
+        <nav id="nav-area">
+            <div id="logo-area">
                 <img src="resources/images/solid-logo.svg" alt="logo">
+            </div>
                 <div class="menu">
                     <div id="toggleIcon" onclick="menuToggle()">
                             <div class="top-toggle"></div>
@@ -22,15 +23,15 @@
                     </div>
                     <div id="menu-overlay">
                         <ul>
-                            <li><a onclick="menuToggle()" href="#banner" class="home">Home</a></li>
                             <li><a onclick="menuToggle()" href="#work" class="work">Work</a></li>
                             <li><a onclick="menuToggle()" href="#process" class="process">Process</a></li>
                             <li><a onclick="menuToggle()" href="#contact" class="contact">Contact</a></li>
+                            <li><a onclick="menuToggle()" href="#banner" class="home">Top</a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </header>
+            
+        </nav>
 
         <div class="banner-container">
             <div class="banner-info">
@@ -43,6 +44,8 @@
             </div>
         </div>
 
+        <div class="banner-container-2"></div>
+
 
 
 
@@ -53,6 +56,42 @@
                 var nav = document.getElementById('toggleIcon');
                 nav.classList.toggle('active');
             }
+        </script>
+
+        <script>
+            window.addEventListener("scroll", function(){
+                let menuArea = document.getElementById('nav-area');
+
+                if(window.pageYOffset > 20){
+                    menuArea.classList.add("cus-nav");
+                }else{
+                    menuArea.classList.remove("cus-nav")
+                }
+            });
+        </script>
+
+        <script>
+            window.addEventListener("scroll", function(){
+                let menuArea = document.getElementById('logo-area');
+
+                if(window.pageYOffset > 20){
+                    menuArea.classList.add("cus-logo");
+                }else{
+                    menuArea.classList.remove("cus-logo")
+                }
+            });
+        </script>
+
+        <script>
+            window.addEventListener("scroll", function(){
+                let menuArea = document.getElementById('toggleIcon');
+
+                if(window.pageYOffset > 20){
+                    menuArea.classList.add("cus-icon");
+                }else{
+                    menuArea.classList.remove("cus-icon")
+                }
+            });
         </script>
         
     </body>
