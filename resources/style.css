@@ -195,11 +195,12 @@ body {
     justify-content: center;
     width: auto;
     height: auto;
+    padding-top: 3em;
 }
 
 .cartoon img {
     width: auto;
-    height: 800px;
+    height: 56em;
 
     
 }
