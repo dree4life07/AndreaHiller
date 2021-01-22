@@ -137,10 +137,10 @@ body {
     display: inline-block;
 }
 
-/*.work .process .contact {
+.work .process .contact {
     font-family: 'Jost' sans-serif;
     font-weight: 700;
-}*/
+}
 
 .work {
     border-bottom: solid 15px #6bc39e;
