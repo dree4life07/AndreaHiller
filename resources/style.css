@@ -13,12 +13,17 @@ body {
     background-color: whitesmoke;
 }
 
+/***************************************       CRAP */
 .banner-container-2 {
     height: 100vh;
     width: 100%;
     background-color: #fff;
 }
+/***************************************       CRAP */
 
+
+
+/***************************************      NAV AREA */
 #nav-area {
     display: flex;
     justify-content: space-between;
@@ -36,7 +41,9 @@ body {
     background-color: whitesmoke;
     opacity: .95;
 }
+/***************************************      NAV AREA */
 
+/***************************************      LOGO */
 #logo-area img {
     height: 7em;
     width: auto;
@@ -50,7 +57,9 @@ body {
 #logo-area.cus-logo {
     opacity: 1;
 }
+/***************************************      LOGO */
 
+/***************************************      MENU */
 #menu-overlay {
     position: fixed;
     top: 0;
@@ -70,7 +79,7 @@ body {
     transform: scale(1);
 }
 
-
+            /***************************************      TOGGLE ICON */
 #toggleIcon {
     position: relative;
     /*position: fixed;*/
@@ -111,6 +120,7 @@ body {
     background-color: #f7b539;
     z-index: 10;
 }
+            /***************************************      TOGGLE ICON */
 
 #menu-overlay ul {
     position: relative;
@@ -142,6 +152,7 @@ body {
     font-weight: 700;
 }
 
+            /***************************************      MENU UNDERLINE */
 .work {
     border-bottom: solid 15px #6bc39e;
 }
@@ -153,10 +164,9 @@ body {
 .contact {
     border-bottom: solid 15px #f7b539;
 }
+            /***************************************      MENU UNDERLINE */
 
-.top {
-    border-bottom: solid 15px #f58632;
-}
+/***************************************      END MENU */
 
 /*#menu-overlay ul li a:before {
     content: '';
