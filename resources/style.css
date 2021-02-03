@@ -64,6 +64,7 @@ nav {
   justify-content: space-between;
   flex-direction: column;
   height: 60%;
+  background-color: darkgoldenrod;
   /*width: 300px;*/
 }
 
