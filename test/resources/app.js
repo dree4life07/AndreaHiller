@@ -16,7 +16,7 @@ function navSlide() {
             }
         });
         //Burger Animation
-        burger.classList.toggle("btoggle");
+        burger.classList.toggle("toggle");
     });
     
 }
