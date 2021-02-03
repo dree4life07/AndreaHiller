@@ -4,17 +4,16 @@
     box-sizing: border-box;
   }
 
-  body {
-    background-color: cornflowerblue;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 1200px;
-    min-height: 80px;
+body {
+  background-color: cornflowerblue;
 }
+  
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 80px;}
 
 .nav-container {
   display: flex;
@@ -27,3 +26,114 @@
   padding: 0 50px 0 40px;
   background-color: whitesmoke;
 }
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+}
+
+.logo-area img {
+  height: 60%;
+  min-height: 45px;
+  width: auto;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  right: 0;
+  bottom: 0;
+  /*top: 8vh;*/
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in;
+  background-color: whitesmoke;
+  opacity: .9;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 60%;
+  /*width: 300px;*/
+}
+
+.nav-links li{
+  opacity: 0;
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgb(19, 19, 19);
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+        /***************************************      MENU UNDERLINE */
+        .work {
+          border-bottom: solid 5px #6bc39e;
+          display: inline-block;
+          height: 1.7em;
+      }
+
+      .process {
+          border-bottom: solid 5px #ee4826;
+          display: inline-block;
+          height: 1.7em;
+      }
+
+      .contact {
+          border-bottom: solid 5px #f7b539;
+          display: inline-block;
+          height: 1.7em;
+      }
+      /***************************************      MENU UNDERLINE */
+
+.burger {
+  display: block;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 4px;
+  margin: 3px 0;
+  background-color: rgb(19, 19, 19);
+  transition: all 0.3s ease;
+}
+
+        /***********************      ANNIMATIONS */
+        .nav-active {
+          transform: translateY(0%);
+          transform-origin: 0%;
+        }
+
+        @keyframes navLinkFade {
+            from{
+                opacity: 0;
+                transform: translateY(200px);
+            }
+            to{
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
+
+        .btoggle .line1 {
+            transform: rotate(-45deg) translate(-4px,6px);
+        }
+        .btoggle .line2 {
+            opacity: 0;
+        }
+        .btoggle .line3 {
+            transform: rotate(45deg) translate(-4px,-6px);
+        }
+        /***********************      END ANNIMATIONS */
