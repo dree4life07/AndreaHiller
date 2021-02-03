@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
   }
 
 body {
@@ -75,27 +76,27 @@ nav {
   color: rgb(19, 19, 19);
   font-family: 'Jost', sans-serif;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 5em;
   text-decoration: none;
 }
 
         /***************************************      MENU UNDERLINE */
         .work {
-          border-bottom: solid 5px #6bc39e;
+          border-bottom: solid 20px #6bc39e;
           display: inline-block;
-          height: 1.7em;
+          height: 1.6em;
       }
 
       .process {
-          border-bottom: solid 5px #ee4826;
+          border-bottom: solid 20px #ee4826;
           display: inline-block;
-          height: 1.7em;
+          height: 1.6em;
       }
 
       .contact {
-          border-bottom: solid 5px #f7b539;
+          border-bottom: solid 20px #f7b539;
           display: inline-block;
-          height: 1.7em;
+          height: 1.6em;
       }
       /***************************************      MENU UNDERLINE */
 
