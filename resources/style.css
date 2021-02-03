@@ -47,8 +47,8 @@ nav {
   align-items: center;
   justify-content: center;
   position: absolute;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   right: 0;
   bottom: 0;
   /*top: 8vh;*/
