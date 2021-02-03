@@ -17,21 +17,20 @@ body {
 nav {
     display: flex;
     justify-content: center;
-    position: fixed;
     width: 100%;
     height: auto;
-    opacity: 0;
-    transition: .5s;
+    /*opacity: 0;
+    transition: .5s;*/
 }
 
-#hide-nav95.cus-nav {
+/*#hide-nav95.cus-nav {
     background-color: whitesmoke;
     opacity: .95;
 }
 
 #hide-nav.cus-nav {
     opacity: 1;
-}
+}*/
 
 .nav-container {
     display: flex;
