@@ -64,7 +64,6 @@ nav {
   justify-content: space-between;
   flex-direction: column;
   height: 60%;
-  background-color: darkgoldenrod;
   /*width: 300px;*/
 }
 
@@ -111,8 +110,19 @@ nav {
   width: 60px;
   height: 8px;
   margin: 7px 0;
-  background-color: rgb(19, 19, 19);
   transition: all 0.3s ease;
+}
+
+.line1 {
+  background-color: #6bc39e;
+}
+
+.line2 {
+  background-color: #ee4826;
+}
+
+.line3 {
+  background-color: #f7b539;
 }
 
         /***********************      ANNIMATIONS */
@@ -134,11 +144,22 @@ nav {
 
         .btoggle .line1 {
             transform: rotate(-45deg) translate(-8px,14px);
+            background-color: #6bc39e;
         }
         .btoggle .line2 {
             opacity: 0;
         }
         .btoggle .line3 {
             transform: rotate(45deg) translate(-8px,-14px);
+            background-color: #6bc39e;
         }
         /***********************      END ANNIMATIONS */
+
+
+
+
+
+
+        @media screen and (min-width:768px){
+
+        }
