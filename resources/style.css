@@ -14,6 +14,7 @@ nav {
   justify-content: center;
   width: 100%;
   min-height: 80px;
+  background-color: whitesmoke;
 }
 
 .nav-container {
@@ -23,8 +24,8 @@ nav {
   min-height: 80px;
   width: 100%;
   height: 8vh;
-  padding: 0 50px 0 40px;
-  background-color: whitesmoke;
+  padding: 0 8% 0 6%;
+  background-color: rgba(245, 245, 245, 0.9);
 }
 
 .logo-area {
@@ -50,8 +51,8 @@ nav {
   bottom: 0;
   transform: translateY(100%);
   transition: transform 0.5s ease-in;
-  background-color: whitesmoke;
-  opacity: .9;
+  background-color: rgba(245, 245, 245, 0.9);
+  /*opacity: .9;*/
   overflow-y: hidden;
 }
 
@@ -72,28 +73,28 @@ nav {
   color: rgb(19, 19, 19);
   font-family: 'Jost', sans-serif;
   font-weight: 600;
-  font-size: 5em;
+  font-size: 4em;
   text-decoration: none;
   opacity: 1;
 }
 
         /***************************************      MENU UNDERLINE */
         .work {
-          border-bottom: solid 20px #6bc39e;
+          border-bottom: solid 14px #6bc39e;
           display: inline-block;
-          height: 1.6em;
+          height: 1.5em;
       }
 
       .process {
-          border-bottom: solid 20px #ee4826;
+          border-bottom: solid 14px #ee4826;
           display: inline-block;
-          height: 1.6em;
+          height: 1.5em;
       }
 
       .contact {
-          border-bottom: solid 20px #f7b539;
+          border-bottom: solid 14px #f7b539;
           display: inline-block;
-          height: 1.6em;
+          height: 1.5em;
       }
       /***************************************      MENU UNDERLINE */
 
@@ -103,9 +104,9 @@ nav {
 }
 
 .burger div {
-  width: 60px;
-  height: 8px;
-  margin: 7px 0;
+  width: 35px;
+  height: 5px;
+  margin: 4px 0;
   transition: all 0.3s ease;
 }
 
@@ -128,13 +129,13 @@ nav {
           transform-origin: 0%;
         }
         html.nav-active li:nth-child(1) {
-          animation: navLinkFade 0.5s ease forwards 0.5s;
+          animation: navLinkFade 0.5s ease forwards 0.35s;
         }
         html.nav-active li:nth-child(2) {
-          animation: navLinkFade 0.5s ease forwards 0.65s;
+          animation: navLinkFade 0.5s ease forwards 0.55s;
         }
         html.nav-active li:nth-child(3) {
-          animation: navLinkFade 0.5s ease forwards 0.8s;
+          animation: navLinkFade 0.5s ease forwards 0.85s;
         }
 
         @keyframes navLinkFade {
@@ -149,24 +150,25 @@ nav {
         }
 
         html.nav-active .line1 {
-            transform: rotate(-45deg) translate(-8px,14px);
+            transform: rotate(-45deg) translate(-5px, 8px);
             background-color: #6bc39e;
         }
         html.nav-active .line2 {
             opacity: 0;
         }
         html.nav-active .line3 {
-            transform: rotate(45deg) translate(-8px,-14px);
+            transform: rotate(45deg) translate(-5px, -8px);
             background-color: #6bc39e;
         }
         /***********************      END ANNIMATIONS */
 
 
-@media only screen and (min-width: 768px) {
 
-.burger {
-  display: none;
-}
+
+
+
+
+@media only screen and (min-width: 768px) {
 
 .links-container {
   display: inline-flex;
@@ -219,54 +221,10 @@ nav {
       }
       /***************************************      MENU UNDERLINE */
 
+      .burger {
+        display: none;
+      }
+
 }
 
-/*.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 80px;
-  width: 100%;
-  height: 8vh;
-  padding: 0 50px 0 40px;
-  background-color: whitesmoke;
-}
-
-.links-container {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-  transform: translateY(100%);
-  transition: transform 0.5s ease-in;
-  background-color: whitesmoke;
-  opacity: .9;
-  overflow-y: hidden;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 60%;
-}
-
-.nav-links li{
-  opacity: 0;
-  list-style: none;
-}
-
-.nav-links a {
-  color: rgb(19, 19, 19);
-  font-family: 'Jost', sans-serif;
-  font-weight: 600;
-  font-size: 5em;
-  text-decoration: none;
-  opacity: 1;
-}
-*/
+w
