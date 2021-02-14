@@ -101,6 +101,8 @@ nav {
 .burger {
   display: block;
   cursor: pointer;
+  position: fixed;
+  left: 83%;
 }
 
 .burger div {
@@ -227,4 +229,3 @@ nav {
 
 }
 
-w
