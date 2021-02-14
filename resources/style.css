@@ -45,8 +45,8 @@ nav {
   align-items: center;
   justify-content: center;
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   right: 0;
   bottom: 0;
   transform: translateY(100%);
@@ -73,26 +73,26 @@ nav {
   color: rgb(19, 19, 19);
   font-family: 'Jost', sans-serif;
   font-weight: 600;
-  font-size: 4em;
+  font-size: 3em;
   text-decoration: none;
   opacity: 1;
 }
 
         /***************************************      MENU UNDERLINE */
         .work {
-          border-bottom: solid 14px #6bc39e;
+          border-bottom: solid 10px #6bc39e;
           display: inline-block;
           height: 1.5em;
       }
 
       .process {
-          border-bottom: solid 14px #ee4826;
+          border-bottom: solid 10px #ee4826;
           display: inline-block;
           height: 1.5em;
       }
 
       .contact {
-          border-bottom: solid 14px #f7b539;
+          border-bottom: solid 10px #f7b539;
           display: inline-block;
           height: 1.5em;
       }
