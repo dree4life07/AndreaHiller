@@ -53,14 +53,14 @@ nav {
   display: none;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  right: 0;
-  bottom: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
   transform: translateY(100%);
   transition: transform 0.5s ease-in;
-  transform-origin: top;
+  /*transform-origin: top;*/
   background-color: rgba(245, 245, 245, 0.9);
   /*opacity: .9;*/
   overflow-y: hidden;
