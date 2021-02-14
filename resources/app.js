@@ -1,24 +1,9 @@
-function navSlide() {
-    const burger = document.querySelector(".burger");
-    const nav = document.querySelector(".links-container");
-    const navLinks = document.querySelectorAll(".nav-links li");
-    
-    burger.addEventListener("click", () => {
-        //Toggle Nav
-        nav.classList.toggle("nav-active");
-        
-        //Animate Links
-        navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = ""
-            } else {
-                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
-            }
-        });
-        //Burger Animation
-        burger.classList.toggle("btoggle");
+// Un-named function that runs itself immediately.
+(function() {
+    var html = document.querySelector("html");
+    var burger = document.querySelector(".burger");
+    burger.addEventListener("click", function() {
+        // Toggle nav by toggling the nav-active CSS class on the document's <html> element.
+        html.classList.toggle("nav-active");
     });
-    
-}
-
-navSlide();
+})();// <-- This is where it runs itself.
