@@ -8,7 +8,8 @@
 body {
   /*background-color: cornflowerblue;*/
 }
-  
+
+/************************************************      NAV-CONTAINER */
 nav {
   display: flex;
   justify-content: center;
@@ -58,8 +59,8 @@ nav {
   width: 100%;
   left: 0;
   top: 0;
-  transform: translateY(100%);
-  transition: transform 0.5s ease-in;
+  /*transform: translateY(100%);*/
+  /*transition: 1s ease-in;*/
   /*transform-origin: top;*/
   background-color: rgba(245, 245, 245, 0.9);
   /*opacity: .9;*/
@@ -134,21 +135,46 @@ nav {
   background-color: #f7b539;
 }
 
-        /***********************      ANNIMATIONS */
+        /***********************      ANIMATIONS */
         html.nav-active .links-container {
           display: flex;
-          transform: translateY(0%);
-          transform-origin: 0%;
+          /*transform: translateY(0%);*/
+          /*transform-origin: 0%;*/
+          animation: navBg .5s ease-in;
         }
+
+        /*html.not-active .links-container {
+          /*transform: translateY(100%);
+          animation: notNavBg .5s ease-in;
+        }*/
+
         html.nav-active li:nth-child(1) {
-          animation: navLinkFade 0.5s ease forwards 0.35s;
+          animation: navLinkFade 0.5s ease forwards 0.6s;
         }
         html.nav-active li:nth-child(2) {
-          animation: navLinkFade 0.5s ease forwards 0.55s;
+          animation: navLinkFade 0.5s ease forwards 0.8s;
         }
         html.nav-active li:nth-child(3) {
-          animation: navLinkFade 0.5s ease forwards 0.85s;
+          animation: navLinkFade 0.5s ease forwards 1s;
         }
+
+        @keyframes navBg {
+            from{
+              transform: translateY(-100vh);
+            }
+            to{
+              transform: translateY(0vh);
+            }
+        }
+
+        /*@keyframes notNavBg {
+          from{
+            transform: translateY(0vh);
+          }
+          to{
+            transform: translateY(-100vh);
+          }
+      }*/
 
         @keyframes navLinkFade {
             from{
@@ -172,9 +198,23 @@ nav {
             transform: rotate(45deg) translate(-5px, -8px);
             background-color: #6bc39e;
         }
-        /***********************      END ANNIMATIONS */
+        /***********************      END ANIMATIONS */
+/************************************************      END NAV-CONTAINER */
 
 
+
+
+/************************************************      BANNER */
+.banner {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(126,208,223,1) 16%, rgba(158,201,179,1) 100%);
+}
+
+.banner-img {
+  display: none;
+}
+/************************************************      END BANNER */
 
 
 
