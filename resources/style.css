@@ -58,8 +58,8 @@ nav {
   height: 100%;
   width: 100%;
   left: 0;
-  top: 0;
-  transform: translateY(100%);
+  top: -100vh;
+  transform: translateY(0);
   transition: .5s ease-in;
   background-color: rgba(245, 245, 245, 0.9);
   opacity: 1;
@@ -144,7 +144,7 @@ nav {
         /***********************      ANIMATIONS */
         html.nav-active .links-container {
           display: flex;
-          transform: translateY(0%);
+          transform: translateY(100vh);
           animation: navBg .5s ease-in;
           -o-animation: ;
         }
@@ -183,14 +183,14 @@ nav {
           animation: navLinkFade 0.5s ease backwards .6s;
         }*/
 
-        @keyframes navBg {
+        /*@keyframes navBg {
             from{
               transform: translateY(-100vh);
             }
             to{
               transform: translateY(0vh);
             }
-        }
+        }*/
 
         /*@keyframes notNavBg {
           from{
@@ -261,7 +261,7 @@ nav {
 }
 
 html.nav-active .links-container {
-  animation: navBg none;
+  animation: none;
 }
 
 
