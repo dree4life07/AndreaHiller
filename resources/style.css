@@ -51,7 +51,7 @@ nav {
 }
 
 .links-container {
-  display: none;
+  /*display: none;*/
   align-items: center;
   justify-content: center;
   position: fixed;
@@ -59,13 +59,18 @@ nav {
   width: 100%;
   left: 0;
   top: 0;
-  /*transform: translateY(100%);*/
-  /*transition: 1s ease-in;*/
-  /*transform-origin: top;*/
+  transform: translateY(100%);
+  transition: 1s ease-in;
   background-color: rgba(245, 245, 245, 0.9);
-  /*opacity: .9;*/
+  opacity: 1;
   overflow-y: hidden;
 }
+
+/*.links-container div {
+  background-color: rgba(245, 245, 245, 0.9);
+  transition: 1s ease-in;
+}*/
+/*THIS IS ALL NEW ABOVE*/
 
 .nav-links {
   display: flex;
@@ -87,6 +92,7 @@ nav {
   font-size: 3em;
   text-decoration: none;
   opacity: 1;
+  transition: .5s ease-in;
 }
 
         /***************************************      MENU UNDERLINE */
@@ -138,15 +144,14 @@ nav {
         /***********************      ANIMATIONS */
         html.nav-active .links-container {
           display: flex;
-          /*transform: translateY(0%);*/
-          /*transform-origin: 0%;*/
+          transform: translateY(0%);
           animation: navBg .5s ease-in;
         }
 
-        /*html.not-active .links-container {
-          /*transform: translateY(100%);
-          animation: notNavBg .5s ease-in;
-        }*/
+        html.not-active .links-container {
+          transform: translateY(100%);
+          animation: notNavBg .5s ease-out;
+        }
 
         html.nav-active li:nth-child(1) {
           animation: navLinkFade 0.5s ease forwards 0.6s;
@@ -158,6 +163,16 @@ nav {
           animation: navLinkFade 0.5s ease forwards 1s;
         }
 
+        html.not-active li:nth-child(1) {
+          animation: navLinkFade 0.5s ease backwards 1s;
+        }
+        html.not-active li:nth-child(2) {
+          animation: navLinkFade 0.5s ease backwards 0.8s;
+        }
+        html.not-active li:nth-child(3) {
+          animation: navLinkFade 0.5s ease backwards .6s;
+        }
+
         @keyframes navBg {
             from{
               transform: translateY(-100vh);
@@ -167,14 +182,14 @@ nav {
             }
         }
 
-        /*@keyframes notNavBg {
+        @keyframes notNavBg {
           from{
             transform: translateY(0vh);
           }
           to{
             transform: translateY(-100vh);
           }
-      }*/
+      }
 
         @keyframes navLinkFade {
             from{
@@ -229,10 +244,16 @@ nav {
   height: 8vh;
   width: 30%;
   opacity: 1;
+  background-color: transparent;
   top: -80px;
   left: 64%;
   /*background-color: khaki;*/
 }
+
+html.nav-active .links-container {
+  animation: navBg none;
+}
+
 
 .nav-links {
   display: flex;
@@ -250,6 +271,8 @@ nav {
 
 .nav-links li a {
   font-size: 1em;
+  position: relative;
+  top: -5px;
   /*background-color: seagreen;*/
 }
 
