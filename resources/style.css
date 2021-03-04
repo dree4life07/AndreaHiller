@@ -9,6 +9,11 @@ body {
   /*background-color: cornflowerblue;*/
 }
 
+.resize-animation-stopper * {
+  transition: none !important;
+  animation: none !important;
+}
+
 /************************************************      NAV-CONTAINER */
 nav {
   display: flex;
@@ -65,12 +70,6 @@ nav {
   opacity: 1;
   overflow-y: hidden;
 }
-
-/*.links-container div {
-  background-color: rgba(245, 245, 245, 0.9);
-  transition: 1s ease-in;
-}*/
-/*THIS IS ALL NEW ABOVE*/
 
 .nav-links {
   display: flex;
@@ -149,11 +148,6 @@ nav {
           -o-animation: ;
         }
 
-        /*html.not-active .links-container {
-          transform: translateY(100%);
-          animation: notNavBg .5s ease-out;
-        }*/
-
         html.nav-active li:nth-child(1) {
           -moz-animation: navLinkFade 0.5s ease forwards 1s;
           -o-animation: navLinkFade 0.5s ease forwards 1s;
@@ -172,34 +166,6 @@ nav {
           -webkit-animation: navLinkFade 0.5s ease forwards 1.4s;
           animation: navLinkFade 0.5s ease forwards 1.4s;
         }
-
-        /*html.not-active li:nth-child(1) {
-          animation: navLinkFade 0.5s ease backwards 1s;
-        }
-        html.not-active li:nth-child(2) {
-          animation: navLinkFade 0.5s ease backwards 0.8s;
-        }
-        html.not-active li:nth-child(3) {
-          animation: navLinkFade 0.5s ease backwards .6s;
-        }*/
-
-        /*@keyframes navBg {
-            from{
-              transform: translateY(-100vh);
-            }
-            to{
-              transform: translateY(0vh);
-            }
-        }*/
-
-        /*@keyframes notNavBg {
-          from{
-            transform: translateY(0vh);
-          }
-          to{
-            transform: translateY(-100vh);
-          }
-      }*/
 
         @keyframes navLinkFade {
             from{
@@ -255,7 +221,7 @@ nav {
   width: 30%;
   opacity: 1;
   background-color: transparent;
-  top: -80px;
+  top: 0;
   left: 64%;
   /*background-color: khaki;*/
 }
