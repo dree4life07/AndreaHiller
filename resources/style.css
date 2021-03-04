@@ -148,10 +148,10 @@ nav {
           animation: navBg .5s ease-in;
         }
 
-        html.not-active .links-container {
+        /*html.not-active .links-container {
           transform: translateY(100%);
           animation: notNavBg .5s ease-out;
-        }
+        }*/
 
         html.nav-active li:nth-child(1) {
           animation: navLinkFade 0.5s ease forwards 1s;
@@ -160,7 +160,7 @@ nav {
           animation: navLinkFade 0.5s ease forwards 1.2s;
         }
         html.nav-active li:nth-child(3) {
-          animation: navLinkFade 0.5s ease forwards 1.4;
+          animation: navLinkFade 0.5s ease forwards 1.4s;
         }
 
         /*html.not-active li:nth-child(1) {
@@ -182,14 +182,14 @@ nav {
             }
         }
 
-        @keyframes notNavBg {
+        /*@keyframes notNavBg {
           from{
             transform: translateY(0vh);
           }
           to{
             transform: translateY(-100vh);
           }
-      }
+      }*/
 
         @keyframes navLinkFade {
             from{
