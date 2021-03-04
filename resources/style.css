@@ -146,6 +146,7 @@ nav {
           display: flex;
           transform: translateY(0%);
           animation: navBg .5s ease-in;
+          -o-animation: ;
         }
 
         /*html.not-active .links-container {
@@ -154,12 +155,21 @@ nav {
         }*/
 
         html.nav-active li:nth-child(1) {
+          -moz-animation: navLinkFade 0.5s ease forwards 1s;
+          -o-animation: navLinkFade 0.5s ease forwards 1s;
+          -webkit-animation: navLinkFade 0.5s ease forwards 1s;
           animation: navLinkFade 0.5s ease forwards 1s;
         }
         html.nav-active li:nth-child(2) {
+          -moz-animation: navLinkFade 0.5s ease forwards 1.2s;
+          -o-animation: navLinkFade 0.5s ease forwards 1.2s;
+          -webkit-animation: navLinkFade 0.5s ease forwards 1.2s;
           animation: navLinkFade 0.5s ease forwards 1.2s;
         }
         html.nav-active li:nth-child(3) {
+          -moz-animation: navLinkFade 0.5s ease forwards 1.4s;
+          -o-animation: navLinkFade 0.5s ease forwards 1.4s;
+          -webkit-animation: navLinkFade 0.5s ease forwards 1.4s;
           animation: navLinkFade 0.5s ease forwards 1.4s;
         }
 
