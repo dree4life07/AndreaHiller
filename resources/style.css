@@ -154,16 +154,16 @@ nav {
         }
 
         html.nav-active li:nth-child(1) {
-          animation: navLinkFade 0.5s ease forwards 0.6s;
-        }
-        html.nav-active li:nth-child(2) {
-          animation: navLinkFade 0.5s ease forwards 0.8s;
-        }
-        html.nav-active li:nth-child(3) {
           animation: navLinkFade 0.5s ease forwards 1s;
         }
+        html.nav-active li:nth-child(2) {
+          animation: navLinkFade 0.5s ease forwards 1.2s;
+        }
+        html.nav-active li:nth-child(3) {
+          animation: navLinkFade 0.5s ease forwards 1.4;
+        }
 
-        html.not-active li:nth-child(1) {
+        /*html.not-active li:nth-child(1) {
           animation: navLinkFade 0.5s ease backwards 1s;
         }
         html.not-active li:nth-child(2) {
@@ -171,7 +171,7 @@ nav {
         }
         html.not-active li:nth-child(3) {
           animation: navLinkFade 0.5s ease backwards .6s;
-        }
+        }*/
 
         @keyframes navBg {
             from{
