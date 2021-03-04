@@ -60,7 +60,7 @@ nav {
   left: 0;
   top: 0;
   transform: translateY(100%);
-  transition: 1s ease-in;
+  transition: .5s ease-in;
   background-color: rgba(245, 245, 245, 0.9);
   opacity: 1;
   overflow-y: hidden;
