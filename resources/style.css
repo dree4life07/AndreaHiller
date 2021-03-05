@@ -201,8 +201,9 @@ nav {
 
 /************************************************      BANNER */
 .banner {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  position: absolute;
   background: linear-gradient(0deg, rgba(126,208,223,1) 16%, rgba(158,201,179,1) 100%);
 }
 
@@ -257,12 +258,13 @@ nav {
   justify-content: center;
   width: 100%;
   height: 60%;
-  /*background-color: #ee4826;*/
+  background-color: #ee4826;
 }
 
 .cartoon-img img {
+  height: 100%;
   width: auto;
-  /*max-height: 80vh;*/
+  background-color: gold;
 }
 /************************************************      END BANNER */
 
