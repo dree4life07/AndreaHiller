@@ -224,14 +224,14 @@ nav {
   align-items: center;
   width: 100%;
   height: 40%;
-  /*background-color: blueviolet;*/
+  background-color: blueviolet;
 }
 
 .banner-p {
 
-  width: 100vw;
+  width: 100%;
   height: auto;
-  /*background-color: #f7b539;*/
+  background-color: #f7b539;
   /*margin: 4vh 0 2vh 0*/
   padding: 0 5vw;
 }
@@ -280,42 +280,6 @@ nav {
   align-items: center;
   width: 100%;
   height: 100px;
-  /*background-color: chartreuse;*/
-}
-
-/*.work-headline {
-  border-bottom: solid 7px #6bc39e;
-  height: 1.7em;
-}*/
-/************************************************       END WORK */
-
-
-
-/********************************************************************     375px-XXXpx */
-@media only screen and (min-width: 375px) {
-  .banner-info {
-    height: 35%;
-  }
-  .banner-p {
-    padding: 0 10vw;
-  }
-
-  .cartoon-img {
-    height: 65%;
-  }
-
-  /************************************************       WORK */
-/*.work-container {
-  height: 500px;
-  background-color: chocolate;
-}*/
-
-/*.headline-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100px;
   /*background-color: chartreuse;
 }*/
 
@@ -325,7 +289,22 @@ nav {
 }*/
 /************************************************       END WORK */
 
+@media only screen and (min-width: 375px) {
+  .banner-info {
+    height: 35%;
+    background-color: deeppink;
+  }
+  .banner-p {
+    background-color: gainsboro;
+  }
+  .cartoon-img {
+    height: 65%;
+  }
 }
+
+
+/********************************************************************     375px-XXXpx */
+
 /********************************************************************     END 375px-XXXpx */
 
 @media only screen and (min-width: 768px) {
@@ -391,6 +370,14 @@ html.nav-active .links-container {
 
       .burger {
         display: none;
+      }
+
+      .banner-info {
+        background-color: darkseagreen;
+      }
+
+      .banner-p {
+        background-color: darkslateblue;
       }
 
 }
