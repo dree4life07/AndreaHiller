@@ -263,6 +263,7 @@ nav {
 .cartoon-img img {
   width: auto;
   /*max-height: 80vh;*/
+  top: -5px;
 }
   
 /************************************************      END BANNER */
