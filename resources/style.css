@@ -201,8 +201,8 @@ nav {
 
 /************************************************      BANNER */
 .banner {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(0deg, rgba(126,208,223,1) 16%, rgba(158,201,179,1) 100%);
 }
 
@@ -263,7 +263,6 @@ nav {
 .cartoon-img img {
   width: auto;
   /*max-height: 80vh;*/
-  top: -5px;
 }
   
 /************************************************      END BANNER */
