@@ -233,7 +233,7 @@ nav {
   height: auto;
   /*background-color: #f7b539;*/
   /*margin: 4vh 0 2vh 0*/
-  padding: 0 5vw;
+  padding: 0 5%;
 }
 
 .banner-p h1 {
@@ -268,25 +268,24 @@ nav {
 /************************************************      END BANNER */
 .banner2 {
   height: 500px;
-  background-color: cadetblue;
 }
 
 
 
 /********************************************************************     375px-XXXpx */
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) {/*
   .banner-info {
-    height: 35vh;
+    height: 35%;
   }
   .banner-p {
-    padding: 0 10vw;
+    padding: 0 10%;
   }
 
   .cartoon-img {
-    height: 65vh;
+    height: 65%;
   }
 
-}
+}*/
 /********************************************************************     END 400px-XXXpx */
 
 @media only screen and (min-width: 768px) {
