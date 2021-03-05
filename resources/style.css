@@ -276,14 +276,14 @@ nav {
 /********************************************************************     375px-XXXpx */
 @media only screen and (min-width: 375px) {
   .banner-info {
-    height: 30%;
+    height: 35%;
   }
   .banner-p {
     padding: 0 10vw;
   }
 
   .cartoon-img {
-    height: 70%;
+    height: 65%;
   }
 
 }
