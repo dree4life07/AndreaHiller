@@ -14,6 +14,7 @@ body {
   animation: none !important;
 }
 
+/********************************************************************     280px-400px */
 /************************************************      NAV-CONTAINER */
 nav {
   display: flex;
@@ -37,18 +38,11 @@ nav {
   opacity: 0;
   transition: .5s;
 }
-
+/*****************************      CUSTOM NAV */
 #nav-shimmy.cus-nav {
   opacity: 1;
 }
-
-/*.fixed-container {
-  position: fixed;
-  min-height: 80px;
-  width: 100%;
-  height: 8vh;
-  background-color: none;
-}*/
+/*****************************      CUSTOM NAV */
 
 .logo-area {
   display: flex;
@@ -208,18 +202,92 @@ nav {
 /************************************************      BANNER */
 .banner {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background: linear-gradient(0deg, rgba(126,208,223,1) 16%, rgba(158,201,179,1) 100%);
+}
+
+.banner-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 100vh;
+  width: 100vw;
 }
 
 .banner-img {
   display: none;
 }
+
+.banner-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+  /*background-color: blueviolet;*/
+}
+
+.banner-p {
+
+  width: 100vw;
+  height: auto;
+  /*background-color: #f7b539;*/
+  /*margin: 4vh 0 2vh 0*/
+  padding: 0 5vw;
+}
+
+.banner-p h1 {
+  font-family: 'Bodoni Moda', serif;
+  font-style: italic;
+  font-size: 2.5em;
+  line-height: 1.25em;
+  text-align: center;
+}
+
+.banner-info h4 {
+  font-size: .92em;
+  font-weight: 300;
+  padding-top: .8em;
+  text-align: center;
+}
+
+
+.cartoon-img {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+  /*background-color: #ee4826;*/
+}
+
+.cartoon-img img {
+  width: auto;
+  /*max-height: 80vh;*/
+}
+  
 /************************************************      END BANNER */
+.banner2 {
+  height: 500px;
+  background-color: cadetblue;
+}
 
 
 
+/********************************************************************     375px-XXXpx */
+@media only screen and (min-width: 375px) {
+  .banner-info {
+    height: 35vh;
+  }
+  .banner-p {
+    padding: 0 10vw;
+  }
 
+  .cartoon-img {
+    height: 65vh;
+  }
+
+}
+/********************************************************************     END 400px-XXXpx */
 
 @media only screen and (min-width: 768px) {
 
