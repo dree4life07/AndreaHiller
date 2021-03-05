@@ -207,9 +207,6 @@ nav {
 }
 
 .banner-container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
@@ -222,9 +219,6 @@ nav {
 }
 
 .banner-info {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,9 +253,6 @@ nav {
 
 
 .cartoon-img {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   width: 100vw;
