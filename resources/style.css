@@ -210,8 +210,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 .banner-img {
@@ -264,12 +264,30 @@ nav {
   width: auto;
   /*max-height: 80vh;*/
 }
-  
 /************************************************      END BANNER */
-.banner2 {
+
+
+
+/************************************************       WORK */
+.work-container {
   height: 500px;
-  background-color: chartreuse;
+  background-color: chocolate;
 }
+
+.headline-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  /*background-color: chartreuse;*/
+}
+
+.work-headline {
+  border-bottom: solid 7px #6bc39e;
+  height: 1.7em;
+}
+/************************************************       END WORK */
 
 
 
