@@ -304,6 +304,27 @@ nav {
     height: 65%;
   }
 
+  /************************************************       WORK */
+.work-container {
+  height: 500px;
+  background-color: chocolate;
+}
+
+/*.headline-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  /*background-color: chartreuse;*/
+}
+
+/*.work-headline {
+  border-bottom: solid 7px #6bc39e;
+  height: 1.7em;
+}*/
+/************************************************       END WORK */
+
 }
 /********************************************************************     END 400px-XXXpx */
 
