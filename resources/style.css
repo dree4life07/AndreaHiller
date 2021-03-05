@@ -292,14 +292,14 @@ nav {
 
 @media only screen and (min-width: 375px) {
   .banner-info {
-    height: 35%;
+    height: 30%;
     background-color: deeppink;
   }
   .banner-p {
     background-color: gainsboro;
   }
   .cartoon-img {
-    height: 65%;
+    height: 70%;
   }
 }
 
