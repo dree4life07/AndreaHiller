@@ -274,7 +274,7 @@ nav {
   background-color: chocolate;
 }
 
-.headline-container {
+/*.headline-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,10 +283,10 @@ nav {
   /*background-color: chartreuse;*/
 }
 
-.work-headline {
+/*.work-headline {
   border-bottom: solid 7px #6bc39e;
   height: 1.7em;
-}
+}*/
 /************************************************       END WORK */
 
 
