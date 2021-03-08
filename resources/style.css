@@ -224,16 +224,15 @@ nav {
   align-items: center;
   width: 100%;
   height: 40%;
-  background-color: blueviolet;
+  /*background-color: blueviolet;*/
 }
 
 .banner-p {
 
   width: 100%;
   height: auto;
-  background-color: #f7b539;
-  /*margin: 4vh 0 2vh 0*/
   padding: 0 5vw;
+  /*background-color: #f7b539;*/
 }
 
 .banner-p h1 {
@@ -257,13 +256,13 @@ nav {
   justify-content: center;
   width: 100%;
   height: 60%;
-  background-color: #ee4826;
+  /*background-color: #ee4826;*/
 }
 
 .cartoon-img img {
   height: 100%;
   width: auto;
-  background-color: gold;
+  /*background-color: gold;*/
 }
 /************************************************      END BANNER */
 
@@ -273,7 +272,7 @@ nav {
 .work-container {
   width: 100%;
   height: auto;
-  background-color: cornflowerblue;
+  /*background-color: cornflowerblue;*/
 }
 
 .headline-container {
@@ -282,7 +281,7 @@ nav {
   align-items: center;
   width: 100%;
   height: 5em;
-  background-color: chartreuse;
+  /*background-color: chartreuse;*/
 }
 
 .work-headline {
@@ -296,25 +295,25 @@ nav {
 }
 
 .project-container {
-  background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
+  /*background-color: grey;*/
 }
 
 .prj-description-container {
   width: 90%;
   height: auto;
   margin-bottom: 2em;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
 }
 
 .prj-img {
-  background-color: lightcoral;
   width: 100%;
   height: 200px;
+  /*background-color: lightcoral;*/
 }
 
 .prj-description-container h4 {
@@ -345,10 +344,10 @@ nav {
   /************************************************       BANNER */
   .banner-info {
     height: 35%;
-    background-color: deeppink;
+    /*background-color: deeppink;*/
   }
   .banner-p {
-    background-color: gainsboro;
+    /*background-color: gainsboro;*/
   }
   .cartoon-img {
     height: 65%;
@@ -362,9 +361,9 @@ nav {
     width: 85%;
   }
   .prj-img {
-    background-color: lightcoral;
     width: 100%;
     height: 300px;
+    background-color: lightgrey;
   }
   /************************************************       END WORK */
 }
@@ -378,13 +377,13 @@ nav {
   /************************************************       BANNER */
   .banner-info {
     height: 30%;
-    background-color: deeppink;
+    /*background-color: deeppink;*/
   }
   .break {
     display: none;
   }
   .banner-p {
-    background-color: gainsboro;
+    /*background-color: gainsboro;*/
   }
   .cartoon-img {
     height: 70%;
@@ -413,7 +412,6 @@ nav {
   display: inline-flex;
   justify-content: space-between;
   position: absolute;
-  /*position: relative;*/
   min-height: 80px;
   height: 8vh;
   width: 30%;
@@ -422,7 +420,6 @@ nav {
   background-color: transparent;
   top: 0;
   left: 75%;
-  background-color: khaki;
 }
 
 html.nav-active .links-container {
