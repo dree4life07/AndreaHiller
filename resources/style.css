@@ -286,10 +286,11 @@ nav {
 }
 
 .work-headline {
-  height: 1.6em;
+  font-size: 1.7em;
   font-family: 'Jost', sans-serif;
   font-weight: 600;
   border-bottom: solid 6px #6bc39e;
+  height: 1.6em;
 }
 
 .project-container {
