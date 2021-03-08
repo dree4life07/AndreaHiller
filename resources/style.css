@@ -14,11 +14,18 @@ body {
   animation: none !important;
 }
 
-/********************************************************************     280px-400px */
-/************************************************      NAV-CONTAINER */
-nav {
+.flex {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/********************************************************************     XXXpx-400px */
+/************************************************      NAV-CONTAINER */
+nav {
+  /*display: flex;
+  justify-content: center;*/
   position: fixed;
   width: 100%;
   height: 8vh;
@@ -29,14 +36,15 @@ nav {
 }
 
 .nav-container {
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
-  align-items: center;
+  /*align-items: center;*/
   position: fixed;
   min-height: 80px;
   width: 100%;
   height: 8vh;
   padding: 0 8% 0 6%;
+  
 }
 /*****************************      CUSTOM NAV */
 #nav-shimmy.cus-nav {
@@ -45,9 +53,9 @@ nav {
 /*****************************      CUSTOM NAV */
 
 .logo-area {
-  display: flex;
+  /*display: flex;*/
   position: fixed;
-  align-items: center;
+  /*align-items: center;*/
   height: 8vh;
   /*opacity: 0;
   transition: .5s;*/
@@ -76,8 +84,8 @@ nav {
 }
 
 .nav-links {
-  display: flex;
-  align-items: center;
+  /*display: flex;
+  align-items: center;*/
   justify-content: space-between;
   flex-direction: column;
   height: 60%;
@@ -201,19 +209,18 @@ nav {
 
 /************************************************      BANNER */
 .banner {
-  display: flex;
-  justify-content: center;
   height: 100vh;
   width: 100vw;
   background: linear-gradient(0deg, rgba(126,208,223,1) 16%, rgba(158,201,179,1) 100%);
 }
 
 .banner-container {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
   align-content: space-between;
   height: 100%;
   width: 100%;
+  /*background-color: mediumblue;*/
 }
 
 .banner-img {
@@ -221,9 +228,9 @@ nav {
 }
 
 .banner-info {
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   width: 100%;
   height: 40%;
   /*background-color: blueviolet;*/
@@ -233,8 +240,9 @@ nav {
 
   width: 100%;
   height: auto;
-  padding: 0 5vw;
   /*background-color: #f7b539;*/
+  /*margin: 4vh 0 2vh 0*/
+  padding: 0 5vw;
 }
 
 .banner-p h1 {
@@ -254,8 +262,8 @@ nav {
 
 
 .cartoon-img {
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
   width: 100%;
   height: 60%;
   /*background-color: #ee4826;*/
@@ -270,37 +278,23 @@ nav {
 
 
 
-
 /************************************************       WORK */
-.work {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.work-container {
   width: 100%;
   height: auto;
   /*background-color: cornflowerblue;*/
 }
 
-.work-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  /*background-color: maroon;*/
-}
-
 .headline-container {
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   width: 100%;
   height: 5em;
   /*background-color: chartreuse;*/
 }
 
 .work-headline {
-  position: relative;
   font-size: 1.7em;
   font-family: 'Jost', sans-serif;
   font-weight: 600;
@@ -310,25 +304,25 @@ nav {
 }
 
 .project-container {
-  display: flex;
-  justify-content: center;
+  background-color: grey;
+  /*display: flex;
+  justify-content: center;*/
   align-items: center;
   width: 100%;
   height: auto;
-  /*background-color: grey;*/
 }
 
 .prj-description-container {
   width: 90%;
   height: auto;
   margin-bottom: 2em;
-  /*background-color: lightblue;*/
+  background-color: lightblue;
 }
 
 .prj-img {
+  background-color: lightcoral;
   width: 100%;
   height: 200px;
-  /*background-color: lightcoral;*/
 }
 
 .prj-description-container h4 {
@@ -343,8 +337,12 @@ nav {
   font-size: 1em;
   line-height: 1.2em;
 }
+
+
+
+
 /************************************************       END WORK */
-/********************************************************************     END 280px-375px */
+/********************************************************************     END XXXpx-375px */
 
 
 
@@ -377,7 +375,7 @@ nav {
 
   /************************************************       WORK */
   .prj-description-container {
-    width: 85%;
+    width: 84%;
   }
   .prj-img {
     width: 100%;
@@ -408,14 +406,6 @@ nav {
     height: 70%;
   }
   /************************************************       END BANNER */
-
-
-
-
-
-  /************************************************       WORK */
-
-  /************************************************       END WORK */
 }
 /********************************************************************     END 500px-767px */
 
@@ -435,32 +425,34 @@ nav {
   /************************************************      NAV-CONTAINER */
   .nav-container {
     max-width: 1000px;
-    padding: 0;
-    background-color: lightgreen;
+    padding: 0 7%;
+    /*background-color: lightgreen;*/
   }
 
   .links-container {
     display: inline-flex;
     justify-content: space-between;
-    position: absolute;
+    /*position: absolute;*/
+    position: relative;
     min-height: 80px;
     height: 8vh;
-    width: 30%;
+    width: 35%;
     max-width: 300px;
     opacity: 1;
     background-color: transparent;
     top: 0;
-    left: 70%;
+    left: 65%;
+    /*background-color: tomato;*/
   }
 
-  html.nav-active .links-container {
+  /*html.nav-active .links-container {
     animation: none;
-  }
+  }*/
 
 
   .nav-links {
-    display: flex;
-    align-items: center;
+    /*display: flex;
+    align-items: center;*/
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
@@ -468,13 +460,13 @@ nav {
   }
 
   .nav-links li {
-    display: inline-flex;
+    /*display: inline-flex;*/
     opacity: 1;
   }
 
   .nav-links li a {
     font-size: 1em;
-    position: relative;
+    /*position: relative;*/
     top: -5px;
     /*background-color: seagreen;*/
   }
@@ -525,10 +517,10 @@ nav {
 
 
   /************************************************       WORK */
-    .work-container {
+    /*.work-container {
       max-width: 1000px;
       background-color: lightseagreen;
-    }
+    }*/
   /************************************************       END WORK */
 }
 /********************************************************************     END 768px-XXXpx */
