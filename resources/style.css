@@ -99,19 +99,19 @@ nav {
 }
 
         /***************************************      MENU UNDERLINE */
-        .work {
+        .work-link {
           border-bottom: solid 10px #6bc39e;
           display: inline-block;
           height: 1.5em;
       }
 
-      .process {
+      .process-link {
           border-bottom: solid 10px #ee4826;
           display: inline-block;
           height: 1.5em;
       }
 
-      .contact {
+      .contact-link {
           border-bottom: solid 10px #f7b539;
           display: inline-block;
           height: 1.5em;
@@ -201,6 +201,8 @@ nav {
 
 /************************************************      BANNER */
 .banner {
+  display: flex;
+  justify-content: center;
   height: 100vh;
   width: 100vw;
   background: linear-gradient(0deg, rgba(126,208,223,1) 16%, rgba(158,201,179,1) 100%);
@@ -268,11 +270,24 @@ nav {
 
 
 
+
 /************************************************       WORK */
-.work-container {
+.work {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
   /*background-color: cornflowerblue;*/
+}
+
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  /*background-color: maroon;*/
 }
 
 .headline-container {
@@ -328,12 +343,16 @@ nav {
   font-size: 1em;
   line-height: 1.2em;
 }
-
-
-
-
 /************************************************       END WORK */
 /********************************************************************     END 280px-375px */
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
 
 
 
@@ -390,6 +409,10 @@ nav {
   }
   /************************************************       END BANNER */
 
+
+
+
+
   /************************************************       WORK */
 
   /************************************************       END WORK */
@@ -400,85 +423,119 @@ nav {
 
 
 
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+
+
 /********************************************************************     768px-XXXpx */
 @media only screen and (min-width: 768px) {
-.nav-container {
-  max-width: 1200px;
-  padding: 0;
-  /*background-color: lightgreen;*/
-}
+  /************************************************      NAV-CONTAINER */
+  .nav-container {
+    max-width: 1000px;
+    padding: 0;
+    background-color: lightgreen;
+  }
 
-.links-container {
-  display: inline-flex;
-  justify-content: space-between;
-  position: absolute;
-  min-height: 80px;
-  height: 8vh;
-  width: 30%;
-  max-width: 300px;
-  opacity: 1;
-  background-color: transparent;
-  top: 0;
-  left: 75%;
-}
+  .links-container {
+    display: inline-flex;
+    justify-content: space-between;
+    position: absolute;
+    min-height: 80px;
+    height: 8vh;
+    width: 30%;
+    max-width: 300px;
+    opacity: 1;
+    background-color: transparent;
+    top: 0;
+    left: 70%;
+  }
 
-html.nav-active .links-container {
-  animation: none;
-}
+  html.nav-active .links-container {
+    animation: none;
+  }
 
 
-.nav-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 100%;
-  /*background-color: sienna;*/
-}
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    /*background-color: sienna;*/
+  }
 
-.nav-links li {
-  display: inline-flex;
-  opacity: 1;
-}
+  .nav-links li {
+    display: inline-flex;
+    opacity: 1;
+  }
 
-.nav-links li a {
-  font-size: 1em;
-  position: relative;
-  top: -5px;
-  /*background-color: seagreen;*/
-}
+  .nav-links li a {
+    font-size: 1em;
+    position: relative;
+    top: -5px;
+    /*background-color: seagreen;*/
+  }
 
+          /***************************************      MENU UNDERLINE */
+          .work-link {
+            border-bottom: solid 5px #6bc39e;
+            display: inline-block;
+            height: 1.6em;
+        }
+
+        .process-link {
+            border-bottom: solid 5px #ee4826;
+            display: inline-block;
+            height: 1.6em;
+        }
+
+        .contact-link {
+            border-bottom: solid 5px #f7b539;
+            display: inline-block;
+            height: 1.6em;
+        }
         /***************************************      MENU UNDERLINE */
-        .work {
-          border-bottom: solid 5px #6bc39e;
-          display: inline-block;
-          height: 1.6em;
-      }
 
-      .process {
-          border-bottom: solid 5px #ee4826;
-          display: inline-block;
-          height: 1.6em;
-      }
+        .burger {
+          display: none;
+        }
 
-      .contact {
-          border-bottom: solid 5px #f7b539;
-          display: inline-block;
-          height: 1.6em;
-      }
-      /***************************************      MENU UNDERLINE */
+        .banner-info {
+          /*background-color: darkseagreen;*/
+        }
 
-      .burger {
-        display: none;
-      }
+        .banner-p {
+          /*background-color: darkslateblue;*/
+        }
+  /************************************************      END NAV-CONTAINER */
 
-      .banner-info {
-        background-color: darkseagreen;
-      }
 
-      .banner-p {
-        background-color: darkslateblue;
-      }
 
+
+  /************************************************      BANNER */
+    .banner-container {
+      max-width: 1000px;
+    }
+  /************************************************      END BANNER */
+
+
+
+
+  /************************************************       WORK */
+    .work-container {
+      max-width: 1000px;
+      background-color: lightseagreen;
+    }
+  /************************************************       END WORK */
 }
+/********************************************************************     END 768px-XXXpx */
 
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
