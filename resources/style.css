@@ -271,23 +271,26 @@ nav {
 
 /************************************************       WORK */
 .work-container {
-  height: 500px;
+  width: 100%;
+  height: auto;
   background-color: cornflowerblue;
 }
 
-/*.headline-container {
+.headline-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100px;
-  /*background-color: chartreuse;
-}*/
+  height: 5em;
+  background-color: chartreuse;
+}
 
-/*.work-headline {
-  border-bottom: solid 7px #6bc39e;
-  height: 1.7em;
-}*/
+.work-headline {
+  height: 1.6em;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  border-bottom: solid 6px #6bc39e;
+}
 /************************************************       END WORK */
 /********************************************************************     END 280px-400px */
 
@@ -296,6 +299,8 @@ nav {
 
 /********************************************************************     400px-768px */
 @media only screen and (min-width: 375px) {
+
+  /************************************************       BANNER */
   .banner-info {
     height: 35%;
     background-color: deeppink;
@@ -306,6 +311,12 @@ nav {
   .cartoon-img {
     height: 65%;
   }
+  /************************************************       END BANNER */
+
+  /************************************************       WORK */
+
+
+  /************************************************       END WORK */
 }
 /********************************************************************     END 400px-768px */
 
