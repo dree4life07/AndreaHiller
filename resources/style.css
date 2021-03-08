@@ -291,6 +291,25 @@ nav {
   font-weight: 600;
   border-bottom: solid 6px #6bc39e;
 }
+
+.project-container {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.prj-description-container {
+  width: 90%;
+  height: auto;
+  background-color: lightblue;
+}
+
+
+
+
 /************************************************       END WORK */
 /********************************************************************     END 280px-400px */
 
