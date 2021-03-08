@@ -289,24 +289,25 @@ nav {
   height: 1.7em;
 }*/
 /************************************************       END WORK */
+/********************************************************************     END 280px-400px */
 
+
+
+
+/********************************************************************     400px-768px */
 @media only screen and (min-width: 375px) {
   .banner-info {
-    height: 30%;
+    height: 35%;
     background-color: deeppink;
   }
   .banner-p {
     background-color: gainsboro;
   }
   .cartoon-img {
-    height: 70%;
+    height: 65%;
   }
 }
 
-
-/********************************************************************     375px-XXXpx */
-
-/********************************************************************     END 375px-XXXpx */
 
 @media only screen and (min-width: 768px) {
 
