@@ -21,8 +21,11 @@ nav {
   justify-content: center;
   position: fixed;
   width: 100%;
+  height: 8vh;
   min-height: 80px;
-  background-color: transparent;
+  background-color: rgba(245, 245, 245, 0.93);
+  opacity: 0;
+  transition: .5s;
 }
 
 .nav-container {
@@ -34,9 +37,6 @@ nav {
   width: 100%;
   height: 8vh;
   padding: 0 8% 0 6%;
-  background-color: rgba(245, 245, 245, 0.93);
-  opacity: 0;
-  transition: .5s;
 }
 /*****************************      CUSTOM NAV */
 #nav-shimmy.cus-nav {
@@ -334,12 +334,12 @@ nav {
 
 
 /************************************************       END WORK */
-/********************************************************************     END 280px-400px */
+/********************************************************************     END 280px-375px */
 
 
 
 
-/********************************************************************     400px-768px */
+/********************************************************************     375px-500px */
 @media only screen and (min-width: 375px) {
 
   /************************************************       BANNER */
@@ -353,32 +353,76 @@ nav {
   .cartoon-img {
     height: 65%;
   }
+
+ 
+  /************************************************       END BANNER */
+
+  /************************************************       WORK */
+  .prj-description-container {
+    width: 85%;
+  }
+  .prj-img {
+    background-color: lightcoral;
+    width: 100%;
+    height: 300px;
+  }
+  /************************************************       END WORK */
+}
+/********************************************************************     END 400px-500px */
+
+
+
+
+/********************************************************************     500px-767px */
+@media only screen and (min-width: 500px) {
+  /************************************************       BANNER */
+  .banner-info {
+    height: 30%;
+    background-color: deeppink;
+  }
+  .break {
+    display: none;
+  }
+  .banner-p {
+    background-color: gainsboro;
+  }
+  .cartoon-img {
+    height: 70%;
+  }
   /************************************************       END BANNER */
 
   /************************************************       WORK */
 
-
   /************************************************       END WORK */
 }
-/********************************************************************     END 400px-768px */
+/********************************************************************     END 500px-767px */
+
 
 
 
 
 /********************************************************************     768px-XXXpx */
 @media only screen and (min-width: 768px) {
+.nav-container {
+  max-width: 1200px;
+  padding: 0;
+  /*background-color: lightgreen;*/
+}
 
 .links-container {
   display: inline-flex;
+  justify-content: space-between;
   position: absolute;
+  /*position: relative;*/
   min-height: 80px;
   height: 8vh;
   width: 30%;
+  max-width: 300px;
   opacity: 1;
   background-color: transparent;
   top: 0;
-  left: 64%;
-  /*background-color: khaki;*/
+  left: 75%;
+  background-color: khaki;
 }
 
 html.nav-active .links-container {
