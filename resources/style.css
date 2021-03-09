@@ -348,6 +348,47 @@ nav {
   line-height: 1.2em;
 }
 /************************************************       END WORK */
+
+
+
+
+/************************************************       PROCESS */
+.process {
+  width: 100%;
+  height: auto;
+  background-color: rgba(126,208,223,1);
+}
+
+.process-container {
+  width: 90%;
+  height: auto;
+  /*background-color: cornflowerblue;*/
+}
+
+.process-headline {
+  font-size: 1.7em;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  border-bottom: solid 6px #ee4826;
+  height: 1.55em;
+  top: -5px;
+}
+
+.process-description-container h4 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: .5em;
+}
+
+.process-description-container p {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-top: .8em;
+}
+/************************************************       END PROCESS */
 /********************************************************************     END XXXpx-375px */
 
 
