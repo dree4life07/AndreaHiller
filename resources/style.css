@@ -322,14 +322,7 @@ nav {
   /*background-color: grey;*/
 }
 
-.prj-description-container {
-  width: 90%;
-  height: auto;
-  margin-bottom: 2em;
-  /*background-color: lightblue;*/
-}
-
-.prj-description-container-lg {
+.prj-description-container, .prj-description-container-lg {
   width: 90%;
   height: auto;
   margin-bottom: 2em;
@@ -398,7 +391,7 @@ nav {
 
 
   /************************************************       WORK */
-  .prj-description-container {
+  .prj-description-container, .prj-description-container-lg {
     width: 84%;
   }
   .prj-img {
