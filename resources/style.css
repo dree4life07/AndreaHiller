@@ -589,6 +589,7 @@ nav {
 
     .project-container {
       justify-content: space-between;
+      align-items: flex-start;
       flex-wrap: wrap;
       /*background-color: darkgoldenrod;*/
     }
