@@ -342,14 +342,14 @@ nav {
   background-color: lightgrey;
 }
 
-.prj-description-container h4 {
+.prj-description-container h4, .prj-description-container-lg h4 {
   font-family: 'Jost', sans-serif;
   font-weight: 600;
   font-size: 1.2em;
   margin-top: .5em;
 }
 
-.prj-description-container p {
+.prj-description-container p, .prj-description-container-lg p {
   font-weight: 300;
   font-size: 1em;
   line-height: 1.2em;
@@ -591,6 +591,7 @@ nav {
       justify-content: space-between;
       align-items: flex-start;
       flex-wrap: wrap;
+      width: 90%;
       /*background-color: darkgoldenrod;*/
     }
 
