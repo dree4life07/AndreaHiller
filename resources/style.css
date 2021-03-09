@@ -360,7 +360,7 @@ nav {
 }
 
 .process-container {
-  width: 90%;
+  width: 100%;
   height: auto;
   /*background-color: cornflowerblue;*/
 }
@@ -374,18 +374,30 @@ nav {
   top: -5px;
 }
 
+.process-detail-container {
+  width: 90%;
+  height: auto;
+  /*background-color: darkgreen;*/
+}
+
+.process-description-container {
+  width: 100%;
+  height: auto;
+  margin-top: 1em;
+  /*background-color: darkkhaki;*/
+}
+
 .process-description-container h4 {
   font-family: 'Jost', sans-serif;
   font-weight: 600;
   font-size: 1.2em;
   text-align: center;
-  margin-top: .5em;
 }
 
 .process-description-container p {
   font-weight: 300;
   font-size: 1em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin-top: .8em;
 }
 /************************************************       END PROCESS */
@@ -441,6 +453,15 @@ nav {
 
   }
   /************************************************       END WORK */
+
+
+
+
+    /************************************************       PROCESS */
+    .process-detail-container {
+      width: 84%;
+    }
+    /************************************************       END PROCESS */
 }
 /********************************************************************     END 400px-500px */
 
@@ -643,6 +664,47 @@ nav {
       width: 100%;
     }
   /************************************************       END WORK */
+
+
+
+
+  /************************************************       PROCESS */
+.process-container {
+  /*justify-content: space-between;*/
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1100px;
+  /*background-color: darkgoldenrod;*/
+}
+
+.process-detail-container {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.process-description-container {
+  width: 46%;
+}
+
+.process-description-container h4 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.process-description-container p {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: .8em;
+}
+
+.extra-margin {
+  margin-top: 2em;
+}
+/************************************************       END PROCESS */
 }
 /********************************************************************     END 768px-XXXpx */
 
