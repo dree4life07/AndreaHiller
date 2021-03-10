@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html {
+html, a {
   scroll-behavior: smooth;
 }
 
@@ -745,7 +745,7 @@ footer {
 
   /************************************************      BANNER */
     .banner {
-      height: 500px;
+      height: 60vh;
       width: 100%;
       /*background-color: violet;*/
     }
