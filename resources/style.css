@@ -445,6 +445,7 @@ nav {
 .contact {
   width: 100%;
   height: auto;
+  /*background-color: lightpink;*/
 }
 
 .contact-container {
@@ -515,7 +516,18 @@ a.contact-top-btn {
   /*background-color: deeppink;*/
 }
 /************************************************       END CONTACT */
+
+
+
+
+
+/************************************************       FOOTER */
+footer {
+  font-size: .8em;
+  font-weight: 300;
 }
+/************************************************       END FOOTER */
+
 /********************************************************************     END XXXpx-375px */
 
 
