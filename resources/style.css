@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html, a {
+html, .smooth-scroll {
   scroll-behavior: smooth;
 }
 
@@ -199,22 +199,22 @@ nav {
         }
 
         html.nav-active li:nth-child(1) {
-          -moz-animation: navLinkFade 0.5s ease forwards 1s;
-          -o-animation: navLinkFade 0.5s ease forwards 1s;
-          -webkit-animation: navLinkFade 0.5s ease forwards 1s;
-          animation: navLinkFade 0.5s ease forwards 1s;
+          -moz-animation: navLinkFade 0.5s ease forwards .5s;
+          -o-animation: navLinkFade 0.5s ease forwards .5s;
+          -webkit-animation: navLinkFade 0.5s ease forwards .5s;
+          animation: navLinkFade 0.5s ease forwards .5s;
         }
         html.nav-active li:nth-child(2) {
-          -moz-animation: navLinkFade 0.5s ease forwards 1.2s;
-          -o-animation: navLinkFade 0.5s ease forwards 1.2s;
-          -webkit-animation: navLinkFade 0.5s ease forwards 1.2s;
-          animation: navLinkFade 0.5s ease forwards 1.2s;
+          -moz-animation: navLinkFade 0.5s ease forwards .7s;
+          -o-animation: navLinkFade 0.5s ease forwards .7s;
+          -webkit-animation: navLinkFade 0.5s ease forwards .7s;
+          animation: navLinkFade 0.5s ease forwards .7s;
         }
         html.nav-active li:nth-child(3) {
-          -moz-animation: navLinkFade 0.5s ease forwards 1.4s;
-          -o-animation: navLinkFade 0.5s ease forwards 1.4s;
-          -webkit-animation: navLinkFade 0.5s ease forwards 1.4s;
-          animation: navLinkFade 0.5s ease forwards 1.4s;
+          -moz-animation: navLinkFade 0.5s ease forwards .9s;
+          -o-animation: navLinkFade 0.5s ease forwards .9s;
+          -webkit-animation: navLinkFade 0.5s ease forwards .9s;
+          animation: navLinkFade 0.5s ease forwards .9s;
         }
 
         @keyframes navLinkFade {
