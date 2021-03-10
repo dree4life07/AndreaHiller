@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="resources/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,700&family=Jost:wght@600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
     </head>
 
     <body>
@@ -18,9 +19,9 @@
                 </div>
                     <div class="links-container flex-center">
                         <ul class="nav-links flex">
-                            <li><a class="work-link" href="#">Work</a></li>
-                            <li><a class="process-link" href="#">Process</a></li>
-                            <li><a class="contact-link" href="#">Contact</a></li>
+                            <li><a class="work-link" href="#whole-work-container">Work</a></li>
+                            <li><a class="process-link" href="#whole-process-container">Process</a></li>
+                            <li><a class="contact-link" href="#whole-contact-container">Contact</a></li>
                         </ul>
                     </div>
                 <div class="burger">
@@ -49,14 +50,14 @@
             </div>
         </div>
 
-        <div class="work flex-center">
+        <a class="anchor" id="whole-work-container"><div class="work flex-center"></a>
             <div class="work-container flex-center">
 
                 <div class="headline-container flex-center margin-top1">
                     <h2 class="work-headline">Work</h2>
                 </div>
 
-                <div class="project-container flex-center margin-top2">
+                <div class="project-container flex-center margin-top2 padding-bottom1">
                 
                     <div class="prj-description-container">
                         <div class="prj-img">
@@ -113,14 +114,14 @@
             </div>
         </div>
 
-        <div class="process flex-center">
+        <a class="anchor" id="whole-process-container"><div class="process flex-center"></a>
             <div class="process-container flex-center">
 
                 <div class="headline-container flex-center margin-top1">
                     <h2 class="process-headline">Process</h2>
                 </div>
 
-                <div class="process-detail-container flex-center">
+                <div class="process-detail-container flex-center padding-bottom1">
                 
                     <div class="process-description-container">
                         <h4>Let's Chat</h4>
@@ -159,21 +160,27 @@
             </div>
         </div>
 
-        <div class="contact flex-center">
+        <a class="anchor" id="whole-contact-container"><div class="contact flex-center"></a>
             <div class="contact-container flex-center">
 
                 <div class="headline-container flex-center margin-top1">
                     <h2 class="contact-headline">Get in Touch</h2>
                 </div>
 
-                <div class="contact-detail-container flex-center">
+                <div class="contact-detail-container flex-center margin-top2">
                 
-                    <div class="contact-description-container">
-                        <p>Do you want to know more about me or my work?<br>
-                            Or do you have a cool project that you want me to 
+                    <div class="contact-description-container margin-bottom2">
+                        <p>Do you want to know more about me or my work?</p>
+                        <p class="margin-top08">Or do you have a cool project that you want me to 
                             dive into?</p>
                     </div>
-                    <div class="intouch-btn"></div>
+                    <div class="intouch-btn flex-center margin-bottom2">
+                        <a href="#"><button class="email-me">Email Me</button></a>
+                    </div>
+                    <a href="#" class="contact-top-btn flex-center">
+                        <i class="fas fa-chevron-up"></i>
+                        <p>back to top</p>
+                    </a>
 
                 </div>
             </div>
