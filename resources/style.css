@@ -353,6 +353,7 @@ nav {
   align-items: center;
   width: 100%;
   height: auto;
+  cursor: pointer;
   /*background-color: grey;*/
 }
 
@@ -527,7 +528,6 @@ footer {
   font-weight: 300;
 }
 /************************************************       END FOOTER */
-
 /********************************************************************     END XXXpx-375px */
 
 
@@ -536,6 +536,42 @@ footer {
 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+
+
+/********************************************************************     PROJECT 1 */
+.project-slider-container {
+  width: 100vw;
+  height: 60vh;
+  background-color: lightslategray;
+}
+
+.project-carousel {
+  width: 100%;
+  height: 100%;
+}
+
+.project-carousel-cell {
+  width: 100%;
+  height: 100%;
+  background-color: lightyellow;
+}
+
+.project-img-container {
+  width: 100%;
+  height: 100%;
+}
+
+.prj1-1 {
+  background-image: url("images/prj1-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+/********************************************************************     END PROJECT 1 */
 
 
 
