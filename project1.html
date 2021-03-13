@@ -5,19 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>ANDREA HILLER</title>
-        <link rel="stylesheet" type="text/css" href="resources/style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,700&family=Jost:wght@600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="resources/style-prj.css">
         <link rel="stylesheet" href="resources/flickity.css" media="screen">
-        <script src="resources/flickity.pkgd.min.js"></script>
-        <script src="resources/jquery-3.3.1.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,700&family=Jost:wght@600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <nav id="nav-shimmy" class="flex-center">
-            <div id="nav-shimmy" class="nav-container flex">
-                <div id="nav-shimmy" class="logo-area flex">
+        <nav class="flex-center nav2">
+            <div class="nav-container flex">
+                <div class="logo-area flex">
                     <img src="resources/images/andrea-logo-2.svg" alt="Andrea Hiller">
                 </div>
                     <div class="links-container flex-center">
@@ -35,28 +32,43 @@
             </div>
         </nav>
 
-        <div class="project-slider-container">
-            <div class="project-carousel" data-flickity='{ "wrapAround": true, 
-            "draggable": true, "contain": true, "prevNextButtons": true }'>
-                <div class="project-carousel-cell">
-                    <div class="project-img-container prj1-1">
+        <div class="nav-buffer"></div>
+
+        <div class="project-container flex-center">
+
+            <div class="project-slider-container">
+                
+                <div class="project-carousel" data-flickity='{ "wrapAround": true, "draggable": true, "contain": true, "prevNextButtons": false }'>
+                    <div class="project-carousel-cell flex-center red">
+                        <img src="resources/images/prj1-1.jpg" class="prj-img" alt="">
+                    </div>
+                    <div class="project-carousel-cell flex-center blue">
+                        <img src="resources/images/prj1-2.jpg" class="prj-img" alt="">
+                    </div>
+                    <div class="project-carousel-cell flex-center yellow">
+                        <img src="resources/images/prj1-3.jpg" class="prj-img" alt="">
+                    </div>
+                    <div class="project-carousel-cell flex-center purple">
+                        <img src="resources/images/prj1-4.jpg" class="prj-img" alt="">
+                    </div>
+                    <div class="project-carousel-cell flex-center green">
+                        <img src="resources/images/prj1-5.jpg" class="prj-img" alt="">
                     </div>
                 </div>
-
-                <div class="project-carousel-cell">
-                </div>
-
-                <div class="project-carousel-cell">
-                </div>
-
-                <div class="project-carousel-cell">
-                </div>
-
-                <div class="project-carousel-cell">
+                <div class="project-info">
+                    
                 </div>
             </div>
+
         </div>
 
-        
+        <footer class="flex-center margin-top2 margin-bottom2">
+            <p>&#169;2020 Created by Andrea Hiller</p>
+        </footer>
+
+        <script src="resources/app.js"></script>
+        <script src="resources/flickity.pkgd.min.js"></script>
+        <script src="resources/jquery-3.3.1.js"></script>
+
     </body>
     </html>

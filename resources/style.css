@@ -61,7 +61,7 @@ a.anchor {
 
 /********************************************************************     XXXpx-400px */
 /************************************************      NAV-CONTAINER */
-nav {
+.nav1 {
   /*display: flex;
   justify-content: center;*/
   position: fixed;
@@ -71,6 +71,17 @@ nav {
   background-color: rgba(245, 245, 245, 0.93);
   opacity: 0;
   transition: .5s;
+}
+
+.nav2 {
+  /*display: flex;
+  justify-content: center;*/
+  position: fixed;
+  width: 100%;
+  height: 8vh;
+  min-height: 80px;
+  background-color: rgba(245, 245, 245, 0.93);
+  z-index: 999;
 }
 
 .nav-container {
@@ -541,41 +552,6 @@ footer {
 
 
 
-/********************************************************************     PROJECT 1 */
-.project-slider-container {
-  width: 100vw;
-  height: 60vh;
-  background-color: lightslategray;
-}
-
-.project-carousel {
-  width: 100%;
-  height: 100%;
-}
-
-.project-carousel-cell {
-  width: 100%;
-  height: 100%;
-  background-color: lightyellow;
-}
-
-.project-img-container {
-  width: 100%;
-  height: 100%;
-}
-
-.prj1-1 {
-  background-image: url("images/prj1-1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-}
-
-/********************************************************************     END PROJECT 1 */
-
-
-
-
 
 /********************************************************************     375px-500px */
 @media only screen and (min-width: 375px) {
@@ -672,7 +648,7 @@ footer {
 
 /********************************************************************     768px-XXXpx */
 @media only screen and (min-width: 768px) {
-  * {
+  html.nav-active .links-container {
     -webkit-animation: none !important;
     -moz-animation: none !important;
     -o-animation: none !important;
@@ -716,11 +692,6 @@ footer {
     /*left: 65%;*/
     /*background-color: tomato;*/
   }
-
-  /*html.nav-active .links-container {
-    animation: none;
-  }*/
-
 
   .nav-links {
     /*display: flex;
