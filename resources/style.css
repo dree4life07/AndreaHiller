@@ -375,17 +375,6 @@ a.anchor {
   height: auto;
 }
 
-/*.prj-3-mobile {
-  background-image: url('images/anna-bcard-home-mobile.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  width: auto;
-  height: 225px;
-  background-color: lightgrey;
-  overflow: hidden;
-}*/
-
 .prj-description-container h4, .prj-description-container-lg h4 {
   font-family: 'Jost', sans-serif;
   font-weight: 600;
