@@ -375,6 +375,11 @@ a.anchor {
   height: auto;
 }
 
+.prj-info {
+  width: 100%;
+  height: auto;
+}
+
 .prj-description-container h4, .prj-description-container-lg h4 {
   font-family: 'Jost', sans-serif;
   font-weight: 600;
@@ -577,14 +582,14 @@ footer {
 
 
   /************************************************       WORK */
-  .prj-description-container, .prj-description-container-lg {
+  /*.prj-description-container, .prj-description-container-lg {
     width: 84%;
   }
   .prj-img {
     width: 100%;
     height: auto;
 
-  }
+  }*/
   /************************************************       END WORK */
 
 
