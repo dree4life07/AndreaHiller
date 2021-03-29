@@ -863,3 +863,23 @@ footer {
 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+
+
+
+/********************************************************************     1000px-XXXpx */
+@media only screen and (min-width: 1000px) {
+  .process-description-container {
+    width: 21%;
+    height: auto;
+    align-items: flex-start;
+    margin-top: 0;
+    /*background-color: cadetblue;*/
+  }
+
+  .process-description-container h4 {
+    justify-content: flex-start;
+  }
+}
