@@ -880,6 +880,6 @@ footer {
   }
 
   .process-description-container h4 {
-    justify-content: flex-start;
+    text-align: left;
   }
 }
