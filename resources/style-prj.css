@@ -315,7 +315,33 @@ a.anchor {
     margin-bottom: 0;
 }
 
+.contact-detail-container {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2em;
+    /*background-color: darkgreen;*/
+  }
 
+  a.contact-top-btn {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+
+  .fa-chevron-up {
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    /*background-color: darkturquoise;*/
+  }
+  
+  .contact-top-btn p {
+    width: 100%;
+    text-align: center;
+    /*background-color: deeppink;*/
+  }
 /************************************************       END PROJECTS */
 
 
