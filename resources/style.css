@@ -524,6 +524,7 @@ a.contact-top-btn {
 .contact-top-btn p {
   width: 100%;
   text-align: center;
+  font-weight: 500;
   /*background-color: deeppink;*/
 }
 /************************************************       END CONTACT */
