@@ -259,7 +259,7 @@ a.anchor {
 
 .project-info-container {
     width: 90%;
-    max-width: 1000px;
+    max-width: 1050px;
     height: auto;
     /*background-color: indigo;*/
 }
@@ -278,6 +278,11 @@ a.anchor {
     max-width: 650px;
     margin-bottom: 1em;
     font-weight: 300;
+}
+
+.web-link {
+    text-decoration: none;
+    color: #6bc39e;
 }
 
 .project-line {
@@ -388,7 +393,7 @@ footer {
   
     /************************************************      NAV-CONTAINER */
     .nav-container {
-      max-width: 1000px;
+      max-width: 1300px;
       padding: 0;
       /*padding: 0 8%;*/
       /*background-color: lightgreen;*/
