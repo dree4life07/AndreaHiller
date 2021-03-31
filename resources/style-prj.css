@@ -472,3 +472,7 @@ footer {
             /*background-color: darkslateblue;*/
           }
     /************************************************      END NAV-CONTAINER */
+
+    .break {
+        display: none;
+    }
