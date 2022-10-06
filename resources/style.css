@@ -504,6 +504,7 @@ a.anchor {
   font-family: 'Jost', sans-serif;
   font-weight: 600;
   cursor: pointer;
+  color: black;
 }
 
 a.contact-top-btn {
@@ -543,6 +544,9 @@ footer {
 }
 
 .email-me {
+  color: black;
+}
+button.email-me {
   color: black;
 }
 /************************************************       END FOOTER */
