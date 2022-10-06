@@ -20,7 +20,6 @@ window.addEventListener("resize", () => {
   }, 768);
 });
 
-/*
 window.addEventListener("scroll", () => {
     let menuArea = document.getElementById('nav-shimmy');
 
@@ -30,7 +29,6 @@ window.addEventListener("scroll", () => {
         menuArea.classList.remove("cus-nav")
     }
 });
-*/
 
 $(document).ready(function(){
     // Add smooth scrolling to all links
